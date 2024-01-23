@@ -19,7 +19,7 @@ class SizeInfoView: UIView {
         return label
     }()
     
-    private lazy var addButton: UIButton = {
+    private lazy var mandatoryButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("obrigatório", for: .normal)
         button.backgroundColor = Colors.neutrals700
@@ -100,7 +100,7 @@ class SizeInfoView: UIView {
     private func setupView() {
         addSubview(questionSizeLabel)
         addSubview(chooseSizeLabel)
-        addSubview(addButton)
+        addSubview(mandatoryButton)
         addSubview(checkIcon)
         addSubview(secondCheckIcon)
         addSubview(discountPriceIcon)
@@ -116,6 +116,12 @@ class SizeInfoView: UIView {
         questionSizeLabel.snp.makeConstraints {
             $0.top.equalToSuperview()
             $0.leading.equalToSuperview().offset(16)
+        }
+        
+        mandatoryButton.snp.makeConstraints {
+            $0.top.equalToSuperview().inset(22)
+            $0.trailing.equalToSuperview().offset(-16)
+            $0.width.equalTo(78)
         }
         
         chooseSizeLabel.snp.makeConstraints {

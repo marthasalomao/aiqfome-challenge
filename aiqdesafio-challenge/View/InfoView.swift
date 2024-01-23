@@ -122,7 +122,7 @@ class InfoView: UIView {
             $0.trailing.equalToSuperview()
             $0.top.equalTo(questionLabel.snp.bottom).inset(-33)
             $0.height.equalTo(4)
-            $0.bottom.equalToSuperview().inset(16)            
+            $0.bottom.equalToSuperview().inset(16)
         }
         
     }
