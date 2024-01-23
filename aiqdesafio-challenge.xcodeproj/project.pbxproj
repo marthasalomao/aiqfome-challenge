@@ -7,16 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2421835221A5C91D167A265F /* Pods_aiqdesafio_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D6E5DC672C6C1668DE358D /* Pods_aiqdesafio_challenge.framework */; };
+		5E5B31883A6911043123AB03 /* Pods_aiqdesafio_challengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64E6199CE8EDF94F5E0826E /* Pods_aiqdesafio_challengeTests.framework */; };
+		612ACB3EE498693DF5DFF04C /* Pods_aiqdesafio_challenge_aiqdesafio_challengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18B377AF318A237A40B4765 /* Pods_aiqdesafio_challenge_aiqdesafio_challengeUITests.framework */; };
+		B1489FE32B5F276E00E9F781 /* SizeInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1489FE22B5F276E00E9F781 /* SizeInfoView.swift */; };
+		B1910E472B5F13C4005FFC1F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1910E462B5F13C4005FFC1F /* InfoView.swift */; };
 		B1D1A88F2B5B1EA600535B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1A88E2B5B1EA600535B2F /* AppDelegate.swift */; };
 		B1D1A8912B5B1EA600535B2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1A8902B5B1EA600535B2F /* SceneDelegate.swift */; };
 		B1D1A8932B5B1EA600535B2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1A8922B5B1EA600535B2F /* ViewController.swift */; };
-		B1D1A8962B5B1EA600535B2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A8942B5B1EA600535B2F /* Main.storyboard */; };
 		B1D1A8992B5B1EA600535B2F /* aiqdesafio_challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1D1A8972B5B1EA600535B2F /* aiqdesafio_challenge.xcdatamodeld */; };
 		B1D1A89B2B5B1EA900535B2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A89A2B5B1EA900535B2F /* Assets.xcassets */; };
 		B1D1A89E2B5B1EA900535B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A89C2B5B1EA900535B2F /* LaunchScreen.storyboard */; };
 		B1D1A8A92B5B1EA900535B2F /* aiqdesafio_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1A8A82B5B1EA900535B2F /* aiqdesafio_challengeTests.swift */; };
 		B1D1A8B32B5B1EA900535B2F /* aiqdesafio_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1A8B22B5B1EA900535B2F /* aiqdesafio_challengeUITests.swift */; };
 		B1D1A8B52B5B1EA900535B2F /* aiqdesafio_challengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1A8B42B5B1EA900535B2F /* aiqdesafio_challengeUITestsLaunchTests.swift */; };
+		B1D1A8C52B5DDB1000535B2F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1A8C42B5DDB1000535B2F /* HeaderView.swift */; };
+		B1D1A8E72B5EE11C00535B2F /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1A8E62B5EE11C00535B2F /* UIFont+Extensions.swift */; };
+		B1D1A8E92B5EE67E00535B2F /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1A8E82B5EE67E00535B2F /* UIColors.swift */; };
+		B1D1A8FB2B5EEDE900535B2F /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A8EC2B5EEDE800535B2F /* Nunito-BlackItalic.ttf */; };
+		B1D1A8FC2B5EEDE900535B2F /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A8ED2B5EEDE800535B2F /* Nunito-Bold.ttf */; };
+		B1D1A8FD2B5EEDE900535B2F /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A8EE2B5EEDE800535B2F /* Nunito-Regular.ttf */; };
+		B1D1A8FE2B5EEDE900535B2F /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A8EF2B5EEDE800535B2F /* Nunito-ExtraLightItalic.ttf */; };
+		B1D1A8FF2B5EEDE900535B2F /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A8F02B5EEDE800535B2F /* Nunito-ExtraBoldItalic.ttf */; };
+		B1D1A9002B5EEDE900535B2F /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A8F12B5EEDE800535B2F /* Nunito-ExtraLight.ttf */; };
+		B1D1A9012B5EEDE900535B2F /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A8F22B5EEDE800535B2F /* Nunito-SemiBold.ttf */; };
+		B1D1A9022B5EEDE900535B2F /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A8F32B5EEDE800535B2F /* OFL.txt */; };
+		B1D1A9032B5EEDE900535B2F /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A8F42B5EEDE800535B2F /* Nunito-Black.ttf */; };
+		B1D1A9042B5EEDE900535B2F /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A8F52B5EEDE800535B2F /* Nunito-SemiBoldItalic.ttf */; };
+		B1D1A9052B5EEDE900535B2F /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A8F62B5EEDE900535B2F /* Nunito-LightItalic.ttf */; };
+		B1D1A9062B5EEDE900535B2F /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A8F72B5EEDE900535B2F /* Nunito-Light.ttf */; };
+		B1D1A9072B5EEDE900535B2F /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A8F82B5EEDE900535B2F /* Nunito-ExtraBold.ttf */; };
+		B1D1A9082B5EEDE900535B2F /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A8F92B5EEDE900535B2F /* Nunito-Italic.ttf */; };
+		B1D1A9092B5EEDE900535B2F /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A8FA2B5EEDE900535B2F /* Nunito-BoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +59,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		312CF626D88BA3280FD0B672 /* Pods-aiqdesafio-challengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aiqdesafio-challengeTests.release.xcconfig"; path = "Target Support Files/Pods-aiqdesafio-challengeTests/Pods-aiqdesafio-challengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		40D6E5DC672C6C1668DE358D /* Pods_aiqdesafio_challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aiqdesafio_challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85182C3EA6D7A0D4AB9DD4E0 /* Pods-aiqdesafio-challengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aiqdesafio-challengeTests.debug.xcconfig"; path = "Target Support Files/Pods-aiqdesafio-challengeTests/Pods-aiqdesafio-challengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E313FF1F9AD57AF41C35A98 /* Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests/Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB71FBDF4469A90C23735ADC /* Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests.release.xcconfig"; path = "Target Support Files/Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests/Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1489FE22B5F276E00E9F781 /* SizeInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeInfoView.swift; sourceTree = "<group>"; };
+		B1910E462B5F13C4005FFC1F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		B1D1A88B2B5B1EA600535B2F /* aiqdesafio-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aiqdesafio-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D1A88E2B5B1EA600535B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1D1A8902B5B1EA600535B2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B1D1A8922B5B1EA600535B2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B1D1A8952B5B1EA600535B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1D1A8982B5B1EA600535B2F /* aiqdesafio_challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = aiqdesafio_challenge.xcdatamodel; sourceTree = "<group>"; };
 		B1D1A89A2B5B1EA900535B2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1D1A89D2B5B1EA900535B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +79,28 @@
 		B1D1A8AE2B5B1EA900535B2F /* aiqdesafio-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aiqdesafio-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D1A8B22B5B1EA900535B2F /* aiqdesafio_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aiqdesafio_challengeUITests.swift; sourceTree = "<group>"; };
 		B1D1A8B42B5B1EA900535B2F /* aiqdesafio_challengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aiqdesafio_challengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1D1A8C42B5DDB1000535B2F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		B1D1A8E62B5EE11C00535B2F /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		B1D1A8E82B5EE67E00535B2F /* UIColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors.swift; sourceTree = "<group>"; };
+		B1D1A8EC2B5EEDE800535B2F /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B1D1A8ED2B5EEDE800535B2F /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		B1D1A8EE2B5EEDE800535B2F /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		B1D1A8EF2B5EEDE800535B2F /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		B1D1A8F02B5EEDE800535B2F /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B1D1A8F12B5EEDE800535B2F /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B1D1A8F22B5EEDE800535B2F /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		B1D1A8F32B5EEDE800535B2F /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		B1D1A8F42B5EEDE800535B2F /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		B1D1A8F52B5EEDE800535B2F /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B1D1A8F62B5EEDE900535B2F /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
+		B1D1A8F72B5EEDE900535B2F /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		B1D1A8F82B5EEDE900535B2F /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B1D1A8F92B5EEDE900535B2F /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		B1D1A8FA2B5EEDE900535B2F /* Nunito-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B64E6199CE8EDF94F5E0826E /* Pods_aiqdesafio_challengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aiqdesafio_challengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18B377AF318A237A40B4765 /* Pods_aiqdesafio_challenge_aiqdesafio_challengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aiqdesafio_challenge_aiqdesafio_challengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7B2922774794BB55BBA473 /* Pods-aiqdesafio-challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aiqdesafio-challenge.release.xcconfig"; path = "Target Support Files/Pods-aiqdesafio-challenge/Pods-aiqdesafio-challenge.release.xcconfig"; sourceTree = "<group>"; };
+		E1AE61C99879A0D04807CD4E /* Pods-aiqdesafio-challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aiqdesafio-challenge.debug.xcconfig"; path = "Target Support Files/Pods-aiqdesafio-challenge/Pods-aiqdesafio-challenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2421835221A5C91D167A265F /* Pods_aiqdesafio_challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5B31883A6911043123AB03 /* Pods_aiqdesafio_challengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +124,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				612ACB3EE498693DF5DFF04C /* Pods_aiqdesafio_challenge_aiqdesafio_challengeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48B1E877894215A5D9513074 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1AE61C99879A0D04807CD4E /* Pods-aiqdesafio-challenge.debug.xcconfig */,
+				DF7B2922774794BB55BBA473 /* Pods-aiqdesafio-challenge.release.xcconfig */,
+				8E313FF1F9AD57AF41C35A98 /* Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests.debug.xcconfig */,
+				AB71FBDF4469A90C23735ADC /* Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests.release.xcconfig */,
+				85182C3EA6D7A0D4AB9DD4E0 /* Pods-aiqdesafio-challengeTests.debug.xcconfig */,
+				312CF626D88BA3280FD0B672 /* Pods-aiqdesafio-challengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B1D1A8822B5B1EA500535B2F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +151,8 @@
 				B1D1A8A72B5B1EA900535B2F /* aiqdesafio-challengeTests */,
 				B1D1A8B12B5B1EA900535B2F /* aiqdesafio-challengeUITests */,
 				B1D1A88C2B5B1EA600535B2F /* Products */,
+				48B1E877894215A5D9513074 /* Pods */,
+				ECDB357851CFC7E0B7708A42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +171,11 @@
 			children = (
 				B1D1A88E2B5B1EA600535B2F /* AppDelegate.swift */,
 				B1D1A8902B5B1EA600535B2F /* SceneDelegate.swift */,
-				B1D1A8922B5B1EA600535B2F /* ViewController.swift */,
-				B1D1A8942B5B1EA600535B2F /* Main.storyboard */,
+				B1D1A8C32B5B21DA00535B2F /* ViewModel */,
+				B1D1A8C22B5B21C200535B2F /* Model */,
+				B1D1A8C12B5B21AD00535B2F /* View */,
+				B1D1A8C62B5EDEB000535B2F /* Resources */,
+				B1D1A8E52B5EE0FE00535B2F /* Extensions */,
 				B1D1A89A2B5B1EA900535B2F /* Assets.xcassets */,
 				B1D1A89C2B5B1EA900535B2F /* LaunchScreen.storyboard */,
 				B1D1A89F2B5B1EA900535B2F /* Info.plist */,
@@ -130,6 +201,72 @@
 			path = "aiqdesafio-challengeUITests";
 			sourceTree = "<group>";
 		};
+		B1D1A8C12B5B21AD00535B2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1D1A8922B5B1EA600535B2F /* ViewController.swift */,
+				B1D1A8C42B5DDB1000535B2F /* HeaderView.swift */,
+				B1910E462B5F13C4005FFC1F /* InfoView.swift */,
+				B1489FE22B5F276E00E9F781 /* SizeInfoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1D1A8C22B5B21C200535B2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1D1A8C32B5B21DA00535B2F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B1D1A8C62B5EDEB000535B2F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1D1A8F42B5EEDE800535B2F /* Nunito-Black.ttf */,
+				B1D1A8EC2B5EEDE800535B2F /* Nunito-BlackItalic.ttf */,
+				B1D1A8ED2B5EEDE800535B2F /* Nunito-Bold.ttf */,
+				B1D1A8FA2B5EEDE900535B2F /* Nunito-BoldItalic.ttf */,
+				B1D1A8F82B5EEDE900535B2F /* Nunito-ExtraBold.ttf */,
+				B1D1A8F02B5EEDE800535B2F /* Nunito-ExtraBoldItalic.ttf */,
+				B1D1A8F12B5EEDE800535B2F /* Nunito-ExtraLight.ttf */,
+				B1D1A8EF2B5EEDE800535B2F /* Nunito-ExtraLightItalic.ttf */,
+				B1D1A8F92B5EEDE900535B2F /* Nunito-Italic.ttf */,
+				B1D1A8F72B5EEDE900535B2F /* Nunito-Light.ttf */,
+				B1D1A8F62B5EEDE900535B2F /* Nunito-LightItalic.ttf */,
+				B1D1A8EE2B5EEDE800535B2F /* Nunito-Regular.ttf */,
+				B1D1A8F22B5EEDE800535B2F /* Nunito-SemiBold.ttf */,
+				B1D1A8F52B5EEDE800535B2F /* Nunito-SemiBoldItalic.ttf */,
+				B1D1A8F32B5EEDE800535B2F /* OFL.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B1D1A8E52B5EE0FE00535B2F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B1D1A8E62B5EE11C00535B2F /* UIFont+Extensions.swift */,
+				B1D1A8E82B5EE67E00535B2F /* UIColors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ECDB357851CFC7E0B7708A42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40D6E5DC672C6C1668DE358D /* Pods_aiqdesafio_challenge.framework */,
+				D18B377AF318A237A40B4765 /* Pods_aiqdesafio_challenge_aiqdesafio_challengeUITests.framework */,
+				B64E6199CE8EDF94F5E0826E /* Pods_aiqdesafio_challengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1D1A8B82B5B1EA900535B2F /* Build configuration list for PBXNativeTarget "aiqdesafio-challenge" */;
 			buildPhases = (
+				4A4200441E415072CA869590 /* [CP] Check Pods Manifest.lock */,
 				B1D1A8872B5B1EA600535B2F /* Sources */,
 				B1D1A8882B5B1EA600535B2F /* Frameworks */,
 				B1D1A8892B5B1EA600535B2F /* Resources */,
+				76D289287B93640FB19E58D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1D1A8BB2B5B1EA900535B2F /* Build configuration list for PBXNativeTarget "aiqdesafio-challengeTests" */;
 			buildPhases = (
+				E94E69214DB61C34EEBDA2C7 /* [CP] Check Pods Manifest.lock */,
 				B1D1A8A02B5B1EA900535B2F /* Sources */,
 				B1D1A8A12B5B1EA900535B2F /* Frameworks */,
 				B1D1A8A22B5B1EA900535B2F /* Resources */,
@@ -172,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1D1A8BE2B5B1EA900535B2F /* Build configuration list for PBXNativeTarget "aiqdesafio-challengeUITests" */;
 			buildPhases = (
+				80FF7D5BE44132280817C09C /* [CP] Check Pods Manifest.lock */,
 				B1D1A8AA2B5B1EA900535B2F /* Sources */,
 				B1D1A8AB2B5B1EA900535B2F /* Frameworks */,
 				B1D1A8AC2B5B1EA900535B2F /* Resources */,
+				05E4E62A46347A2FC684C3DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,9 +376,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D1A9042B5EEDE900535B2F /* Nunito-SemiBoldItalic.ttf in Resources */,
+				B1D1A9022B5EEDE900535B2F /* OFL.txt in Resources */,
+				B1D1A8FD2B5EEDE900535B2F /* Nunito-Regular.ttf in Resources */,
+				B1D1A8FE2B5EEDE900535B2F /* Nunito-ExtraLightItalic.ttf in Resources */,
 				B1D1A89E2B5B1EA900535B2F /* LaunchScreen.storyboard in Resources */,
+				B1D1A9012B5EEDE900535B2F /* Nunito-SemiBold.ttf in Resources */,
+				B1D1A8FB2B5EEDE900535B2F /* Nunito-BlackItalic.ttf in Resources */,
+				B1D1A9092B5EEDE900535B2F /* Nunito-BoldItalic.ttf in Resources */,
+				B1D1A9032B5EEDE900535B2F /* Nunito-Black.ttf in Resources */,
+				B1D1A9062B5EEDE900535B2F /* Nunito-Light.ttf in Resources */,
+				B1D1A9052B5EEDE900535B2F /* Nunito-LightItalic.ttf in Resources */,
+				B1D1A8FC2B5EEDE900535B2F /* Nunito-Bold.ttf in Resources */,
+				B1D1A8FF2B5EEDE900535B2F /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				B1D1A9072B5EEDE900535B2F /* Nunito-ExtraBold.ttf in Resources */,
+				B1D1A9082B5EEDE900535B2F /* Nunito-Italic.ttf in Resources */,
 				B1D1A89B2B5B1EA900535B2F /* Assets.xcassets in Resources */,
-				B1D1A8962B5B1EA600535B2F /* Main.storyboard in Resources */,
+				B1D1A9002B5EEDE900535B2F /* Nunito-ExtraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,14 +412,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05E4E62A46347A2FC684C3DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests/Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests/Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests/Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A4200441E415072CA869590 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aiqdesafio-challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76D289287B93640FB19E58D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aiqdesafio-challenge/Pods-aiqdesafio-challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aiqdesafio-challenge/Pods-aiqdesafio-challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-aiqdesafio-challenge/Pods-aiqdesafio-challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80FF7D5BE44132280817C09C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E94E69214DB61C34EEBDA2C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aiqdesafio-challengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1D1A8872B5B1EA600535B2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1910E472B5F13C4005FFC1F /* InfoView.swift in Sources */,
+				B1D1A8C52B5DDB1000535B2F /* HeaderView.swift in Sources */,
 				B1D1A8932B5B1EA600535B2F /* ViewController.swift in Sources */,
+				B1489FE32B5F276E00E9F781 /* SizeInfoView.swift in Sources */,
 				B1D1A88F2B5B1EA600535B2F /* AppDelegate.swift in Sources */,
+				B1D1A8E92B5EE67E00535B2F /* UIColors.swift in Sources */,
 				B1D1A8912B5B1EA600535B2F /* SceneDelegate.swift in Sources */,
+				B1D1A8E72B5EE11C00535B2F /* UIFont+Extensions.swift in Sources */,
 				B1D1A8992B5B1EA600535B2F /* aiqdesafio_challenge.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +565,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B1D1A8942B5B1EA600535B2F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1D1A8952B5B1EA600535B2F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B1D1A89C2B5B1EA900535B2F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,6 +692,7 @@
 		};
 		B1D1A8B92B5B1EA900535B2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1AE61C99879A0D04807CD4E /* Pods-aiqdesafio-challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,7 +703,7 @@
 				INFOPLIST_FILE = "aiqdesafio-challenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,6 +721,7 @@
 		};
 		B1D1A8BA2B5B1EA900535B2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF7B2922774794BB55BBA473 /* Pods-aiqdesafio-challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,7 +732,7 @@
 				INFOPLIST_FILE = "aiqdesafio-challenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -492,6 +750,7 @@
 		};
 		B1D1A8BC2B5B1EA900535B2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85182C3EA6D7A0D4AB9DD4E0 /* Pods-aiqdesafio-challengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +771,7 @@
 		};
 		B1D1A8BD2B5B1EA900535B2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 312CF626D88BA3280FD0B672 /* Pods-aiqdesafio-challengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +792,7 @@
 		};
 		B1D1A8BF2B5B1EA900535B2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E313FF1F9AD57AF41C35A98 /* Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +811,7 @@
 		};
 		B1D1A8C02B5B1EA900535B2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB71FBDF4469A90C23735ADC /* Pods-aiqdesafio-challenge-aiqdesafio-challengeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
